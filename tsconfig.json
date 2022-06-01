@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+      "target": "ES2018",
+      "baseUrl": ".",
+      "paths": {
+          "*": [ "./*" ],
+      },
+      "types": ["node", "@wdio/sync", "@wdio/mocha-framework", "@wdio/devtools-service", "./types/wdio"]
+  },    
+  "include": [
+      "./src/**/*.ts",
+      "./config/**/*.ts",
+      "./test/**/*.ts"
+  ],
+  "exclude": [
+    "./node_modules"
+  ]
+}
